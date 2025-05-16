@@ -17,8 +17,8 @@ export default async function Page() {
   return (
     <ul className="list-disc">
       {posts.map((post) => (
-        <li>
-          <Post key={post.id} post={post} />
+        <li key={post.id}>
+          <Post post={post} />
         </li>
       ))}
     </ul>
