@@ -1,7 +1,7 @@
 export const engineerInfo = {
   name: "Chen Zhu",
   title: "Front End Engineer",
-  bio: "Frontend engineer who transforms complex requirements into intuitive experiences that delight users. With 10 years shipping products at scale, I thrive when participating early in both design and engineering phases to drive products toward the most user-friendly outcomes, collaborating with backend teams to optimize performance, and working with PMs to validate ideas through rapid prototypes. Passionate about React, Next.js, and GraphQL, I believe exceptional products are built when technical excellence meets empathetic design.",
+  bio: "Transforms complex requirements into intuitive experiences that delight users. Passionate about React, Next.js, and GraphQL, I believe exceptional products are built when technical excellence meets empathetic design principles.",
   email: "cz764@nyu.edu",
   github: "https://github.com/cz764",
   linkedin: "https://www.linkedin.com/in/czchenzhu/",
