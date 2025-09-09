@@ -14,7 +14,7 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
             {engineerInfo.bio}
           </p>
