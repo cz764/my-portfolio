@@ -1,7 +1,10 @@
 import { engineerInfo, socialLinks } from "@/data/engineerInfo";
 import SocialLink from "./SocialLink";
+import ViewMyWorkButton, { ViewMyWorkButtonProps } from "./ViewMyWorkButton";
 
-export default function Hero() {
+interface HeroProps extends ViewMyWorkButtonProps {}
+
+export default function Hero({ handleViewMyWork }: HeroProps) {
   return (
     <section className="min-h-[90vh] flex items-center justify-center px-8 py-16">
       <div className="max-w-4xl mx-auto text-center space-y-8">
@@ -32,25 +35,7 @@ export default function Hero() {
         </div>
 
         <div className="pt-8">
-          <a
-            href="#projects"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors"
-          >
-            View My Work
-            <svg
-              className="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
-          </a>
+          <ViewMyWorkButton handleViewMyWork={handleViewMyWork} />
         </div>
       </div>
     </section>
