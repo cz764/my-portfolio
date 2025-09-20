@@ -19,7 +19,6 @@ export default function Home() {
     (async function () {
       try {
         const data = await fetchPerson();
-        console.log(`after loading...`, data);
         setPerson(data);
       } catch (ex) {
         console.log(ex);
@@ -35,7 +34,7 @@ export default function Home() {
 
       <Projects
         isLoading={isLoading}
-        person={person}
+        name={person?.fullName() ?? ""}
         errorMessage={errorMessage}
       />
 

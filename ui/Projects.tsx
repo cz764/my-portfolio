@@ -2,13 +2,13 @@ import { PersonModule } from "@faker-js/faker";
 
 export interface ProjectsProps {
   isLoading: boolean;
-  person: PersonModule | undefined;
+  name: string;
   errorMessage: string;
 }
 
 export default function Projects({
   isLoading,
-  person,
+  name,
   errorMessage,
 }: ProjectsProps) {
   return (
@@ -19,9 +19,7 @@ export default function Projects({
         {errorMessage && (
           <p className="text-center text-red-400">{errorMessage}</p>
         )}
-        {person && (
-          <p className="text-center text-gray-600">{person.fullName()}</p>
-        )}
+        {name && <p className="text-center text-gray-600">{name}</p>}
       </div>
     </section>
   );
