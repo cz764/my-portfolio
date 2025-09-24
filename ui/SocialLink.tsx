@@ -10,7 +10,7 @@ export default function SocialLink({
   iconPath,
 }: SocialLinkProps) {
   const isExternal = href.startsWith("http");
-  
+
   return (
     <a
       href={href}
@@ -18,7 +18,7 @@ export default function SocialLink({
         target: "_blank",
         rel: "noopener noreferrer",
       })}
-      className="p-3 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+      className="p-3 rounded-full bg-gray-700 hover:bg-gray-600 text-white transition-colors"
       aria-label={ariaLabel}
     >
       <svg className="w-6 h-6" viewBox="0 0 24 24">
