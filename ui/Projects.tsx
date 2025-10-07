@@ -39,9 +39,7 @@ function ProjectCard({ project }: { project: Project }) {
       </p>
 
       <div className="mb-6 flex-grow">
-        <h4 className="text-sm font-semibold text-gray-700 mb-3">
-          Key Achievements:
-        </h4>
+        <h4 className="text-sm font-semibold text-gray-700 mb-3">Highlights</h4>
         <ul className="space-y-2">
           {project.highlights.map((highlight, index) => (
             <li key={index} className="text-sm text-gray-600 flex items-start">
@@ -129,7 +127,7 @@ export default function Projects() {
         <div className="absolute top-20 left-1/2 w-96 h-96 bg-gradient-to-br from-blue-100 to-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-4000" />
       </div>
 
-      <div className="max-w-7xl mx-auto relative z-10">
+      <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16 pt-20">
           <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
             Featured Projects
@@ -142,13 +140,12 @@ export default function Projects() {
         </div>
 
         <div className="mb-16">
-          <h3 className="text-3xl font-bold mb-10 text-gray-800 flex items-center gap-3">
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-10 text-gray-800 flex items-center gap-3">
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Professional
             </span>
-            <span className="text-gray-400">Experience</span>
           </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 gap-8">
             {professionalProjects.map((project, index) => (
               <ProjectCard key={index} project={project} />
             ))}
@@ -156,11 +153,10 @@ export default function Projects() {
         </div>
 
         <div>
-          <h3 className="text-3xl font-bold mb-10 text-gray-800 flex items-center gap-3">
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-10 text-gray-800 flex items-center gap-3">
             <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
               Personal
             </span>
-            <span className="text-gray-400">Projects</span>
           </h3>
           <div className="grid md:grid-cols-2 gap-8">
             {personalProjects.map((project, index) => (
