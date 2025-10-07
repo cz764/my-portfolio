@@ -25,15 +25,13 @@ function ProjectCard({ project }: { project: Project }) {
             {project.timeframe}
           </p>
         </div>
-        <span
-          className={`px-3 py-1.5 text-xs font-medium rounded-full ${
-            project.type === "professional"
-              ? "bg-gradient-to-r from-blue-100 to-purple-100 text-purple-800"
-              : "bg-gradient-to-r from-green-100 to-blue-100 text-blue-800"
-          }`}
-        >
-          {project.type === "professional" ? "Professional" : "Personal"}
-        </span>
+        {project.logoUrl && (
+          <img
+            src={project.logoUrl}
+            alt={`${project.title} logo`}
+            className="h-14 w-14 object-contain rounded-lg"
+          />
+        )}
       </div>
 
       <p className="text-gray-600 mb-6 leading-relaxed">

@@ -5,6 +5,7 @@ export interface Project {
   techStack: string[];
   githubUrl?: string;
   liveUrl?: string;
+  logoUrl?: string;
   type: "personal" | "professional";
   timeframe: string;
 }
@@ -22,6 +23,7 @@ export const projects: Project[] = [
     techStack: ["React", "TypeScript", "AWS Fargate", "CloudWatch", "REST API"],
     type: "professional",
     timeframe: "2024 - 2025",
+    logoUrl: "/logos/aws.png",
   },
   {
     title: "Sort Center Solution",
@@ -36,6 +38,7 @@ export const projects: Project[] = [
     techStack: ["React", "TypeScript", "React Query", "Jest", "Docker"],
     type: "professional",
     timeframe: "2021 - 2024",
+    logoUrl: "/logos/amazon.jpg",
   },
   {
     title: "Bond Trading Application",
@@ -49,6 +52,7 @@ export const projects: Project[] = [
     techStack: ["JavaScript", "Java", "REST API", "Oracle", "SQL", "Jenkins"],
     type: "professional",
     timeframe: "2015 - 2021",
+    logoUrl: "/logos/ice.png",
   },
   {
     title: "Next.js Portfolio Site",
