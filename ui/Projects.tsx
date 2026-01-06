@@ -85,7 +85,7 @@ function ProjectCard({ project }: { project: Project }) {
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 text-sm text-gray-700 hover:text-white bg-white hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 border border-gray-200 rounded-full transition-all"
+              className="flex items-center gap-2 px-4 py-2 text-sm text-white bg-purple-500 hover:bg-gradient-to-r hover:from-violet-500 hover:to-rose-500 border border-purple-500 rounded-full transition-all"
             >
               <svg
                 className="w-4 h-4"
