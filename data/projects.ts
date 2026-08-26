@@ -6,13 +6,14 @@ export interface Project {
   githubUrl?: string;
   liveUrl?: string;
   logoUrl?: string;
+  thumbnailUrl?: string;
   type: "personal" | "professional";
   timeframe: string;
 }
 
 export const projects: Project[] = [
   {
-    title: "ECS Console",
+    title: "Amazon AWS - ECS Console",
     description:
       "Led frontend development for AWS ECS and Fargate features, improving console efficiency and user experience for 500k+ daily users.",
     highlights: [
@@ -21,12 +22,13 @@ export const projects: Project[] = [
       "Enhanced code review process with custom ESLint rules",
     ],
     techStack: ["React", "TypeScript", "AWS Fargate", "CloudWatch", "REST API"],
+    liveUrl: "https://aws.amazon.com/console/",
     type: "professional",
     timeframe: "2024 - 2025",
     logoUrl: "/logos/aws.png",
   },
   {
-    title: "Sort Center Solution",
+    title: "Amazon - Sort Center Solution",
     description:
       "Led frontend design and development of 3 greenfield projects for Amazon's Sort Centers, driving significant operational savings.",
     highlights: [
@@ -39,12 +41,13 @@ export const projects: Project[] = [
       "Mentored 3 junior engineers to independent, production-level contributors",
     ],
     techStack: ["React", "TypeScript", "React Query", "Jest", "Docker"],
+    liveUrl: "https://www.amazon.com/",
     type: "professional",
     timeframe: "2021 - 2024",
     logoUrl: "/logos/amazon.jpg",
   },
   {
-    title: "Bond Trading Application",
+    title: "Intercontinental Exchange (TMC Bonds) - Bond Trading Application",
     description:
       "Delivered 10+ web features for ICE's bond trading platform serving 10k daily users, contributing to 20% revenue growth.",
     highlights: [
@@ -53,6 +56,8 @@ export const projects: Project[] = [
       "Guided 2 junior developers, accelerating their growth to self-sufficient contributors",
     ],
     techStack: ["JavaScript", "Java", "REST API", "Oracle", "SQL", "Jenkins"],
+    liveUrl:
+      "https://www.ice.com/fixed-income-data-services/fixed-income/ice-bonds/ice-tmc",
     type: "professional",
     timeframe: "2015 - 2021",
     logoUrl: "/logos/ice.png",
@@ -71,6 +76,7 @@ export const projects: Project[] = [
     techStack: ["React", "Typescript", "Next.js", "Shadcn", "Tailwind CSS"],
     githubUrl: "https://github.com/cz764/cozy-stay",
     liveUrl: "https://cozystay.chenzhu.me/",
+    thumbnailUrl: "/screenshots/cozystay.png",
     type: "personal",
     timeframe: "2026",
   },
@@ -94,6 +100,7 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/cz764/recipe-collection-fav",
     liveUrl: "https://recipe-collection-neon.vercel.app/",
+    thumbnailUrl: "/screenshots/recipe-collection.png",
     type: "personal",
     timeframe: "2025 - 2026",
   },
@@ -108,6 +115,7 @@ export const projects: Project[] = [
     techStack: ["React", "TypeScript", "Vercel"],
     githubUrl: "https://github.com/cz764/what-to-wear-today",
     liveUrl: "https://what-to-wear-today-five.vercel.app/",
+    thumbnailUrl: "/screenshots/what-to-wear-today.png",
     type: "personal",
     timeframe: "2026",
   },

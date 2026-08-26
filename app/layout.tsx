@@ -24,10 +24,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${ysabeau.variable} ${carroisGothic.variable} antialiased`}
-      >
+    <html
+      lang="en"
+      className={`font-sans ${ysabeau.variable} ${carroisGothic.variable}`}
+    >
+      <body className="antialiased">
         {children}
       </body>
     </html>

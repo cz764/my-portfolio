@@ -18,7 +18,7 @@ export default function SocialLink({
         target: "_blank",
         rel: "noopener noreferrer",
       })}
-      className="p-3 rounded-full bg-stone-700 hover:bg-stone-600 text-white transition-colors"
+      className="rounded-full border border-border p-3 text-foreground transition-colors hover:bg-muted"
       aria-label={ariaLabel}
     >
       <svg className="w-6 h-6" viewBox="0 0 24 24">
