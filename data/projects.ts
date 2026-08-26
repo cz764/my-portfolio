@@ -79,10 +79,10 @@ export const projects: Project[] = [
     description:
       "Designed and implemented a recipe collection website that shows my favorite recipes concisely, with the latest best practices I've learned using Next.js stack.",
     highlights: [
-      "Designed the website layout, color palette, logo and components in Figma",
-      "Implemented UI components with Next.js, HeroUI and TailwindCSS stack",
-      "Managed project estimation and timelines using Asana and spreadsheets",
-      "Deployed proof of concept to Vercel with a working home page",
+      "Owned the full product lifecycle, from design, build, and deployment to a production recipe website",
+      "Designed the layout, color palette, logo, and component library in Figma before writing a line of code",
+      "Built the UI with Next.js, HeroUI, and TailwindCSS, translating the designs into reusable components",
+      "Deployed to production on Vercel and managed scope and timelines to take the site from concept to live",
     ],
     techStack: [
       "Next.js",
@@ -95,20 +95,20 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/cz764/recipe-collection-fav",
     liveUrl: "https://recipe-collection-neon.vercel.app/",
     type: "personal",
-    timeframe: "2025 - present",
+    timeframe: "2025 - 2026",
   },
   {
-    title: "Next.js Portfolio Site",
+    title: "What to wear today?",
     description:
-      "Built a modern personal portfolio website to showcase projects and practice full-stack development patterns.",
+      "Designed and built an AI prompt web interface to help people decide what to wear today, according to user's commute, style, weather and other preferences.",
     highlights: [
-      "Leveraged Claude AI for component generation and UI refinement",
-      "Implemented modern design patterns and best practices",
-      "Deployed with automated CI/CD pipeline",
+      "Turned a raw AI prompt into a friendly web product anyone can use",
+      "Designed the layout, form questions, and interaction flow, crafting the form to be effortless to fill and fully accessible, with clear labels, keyboard navigation, and minimal typing",
     ],
-    techStack: ["Next.js", "React", "TypeScript", "TailwindCSS", "Vercel"],
-    githubUrl: "https://github.com/cz764/my-portfolio",
+    techStack: ["React", "TypeScript", "Vercel"],
+    githubUrl: "https://github.com/cz764/what-to-wear-today",
+    liveUrl: "https://what-to-wear-today-five.vercel.app/",
     type: "personal",
-    timeframe: "2025",
+    timeframe: "2026",
   },
 ];
