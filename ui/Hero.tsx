@@ -15,7 +15,7 @@ export default function Hero() {
           </p>
         </div>
 
-        <p className="text-lg leading-relaxed text-muted-foreground md:text-xl">
+        <p className="text-lg leading-relaxed text-foreground md:text-xl">
           {engineerInfo.bio}
         </p>
 

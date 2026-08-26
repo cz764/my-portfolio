@@ -64,7 +64,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           )}
         </div>
 
-        <p className="leading-relaxed text-muted-foreground">
+        <p className="leading-relaxed text-foreground">
           {project.description}
         </p>
 
@@ -72,7 +72,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           {project.highlights.map((highlight, index) => (
             <li
               key={index}
-              className="flex items-start gap-2.5 text-muted-foreground"
+              className="flex items-start gap-2.5 text-foreground"
             >
               <span
                 aria-hidden

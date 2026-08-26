@@ -54,27 +54,31 @@ h4,
 h5,
 h6 {
   font-family: var(--font-ysabeau), ui-sans-serif, system-ui, sans-serif;
+  color: var(--primary);
 }
 
+/* Brand palette — "Smoky Plum & Soft Mauve"
+ * Primary: smoky plum. Surfaces: near-white and off-white with a
+ * faint mauve tint (kept subtle so the plum headings carry the brand). */
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --background: #fdfcfd;
+  --foreground: #3d3a3c;
+  --card: #f8f5f7;
+  --card-foreground: #3d3a3c;
+  --popover: #fdfcfd;
+  --popover-foreground: #3d3a3c;
+  --primary: #5c3a5e;
+  --primary-foreground: #fdfcfd;
+  --secondary: #eee7ed;
+  --secondary-foreground: #5c3a5e;
+  --muted: #f1ecf0;
+  --muted-foreground: #6e676c;
+  --accent: #f3ecf2;
+  --accent-foreground: #5c3a5e;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: #e9e2e8;
+  --input: #e9e2e8;
+  --ring: #5c3a5e;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
