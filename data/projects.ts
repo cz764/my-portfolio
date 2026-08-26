@@ -58,6 +58,23 @@ export const projects: Project[] = [
     logoUrl: "/logos/ice.png",
   },
   {
+    title: "cozystay",
+    description:
+      "A hotel market place to find a cozy stay for your next escape, inspired by Airbnb.",
+    highlights: [
+      "Owned the product end to end — from design and UX in Figma through frontend implementation and deployment",
+      "Crafted a warm, cozy color palette and visual language to make browsing stays feel like the escape itself",
+      "Designed mobile-first and responsive, so the experience shines from phone to desktop",
+      "Built infinite scroll for stay listings with accessibility in mind, keeping keyboard and screen reader users fully supported",
+      "Applied Next.js server components with URL search params as the single source of truth for shareable, bookmarkable search state",
+    ],
+    techStack: ["React", "Typescript", "Next.js", "Shadcn", "Tailwind CSS"],
+    githubUrl: "https://github.com/cz764/cozy-stay",
+    liveUrl: "https://cozystay.chenzhu.me/",
+    type: "personal",
+    timeframe: "2026",
+  },
+  {
     title: "Recipe Collection Site",
     description:
       "Designed and implemented a recipe collection website that shows my favorite recipes concisely, with the latest best practices I've learned using Next.js stack.",
@@ -93,20 +110,5 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/cz764/my-portfolio",
     type: "personal",
     timeframe: "2025",
-  },
-  {
-    title: "User Center with React and Redux",
-    description:
-      "Developed a single-page application with authentication and user dashboard, focusing on performance optimization.",
-    highlights: [
-      "Built complete auth flow and user management system",
-      "Improved UX with lazy loading and React Suspense",
-      "Implemented Redux for state management",
-    ],
-    techStack: ["React", "Redux", "React Router", "Webpack", "Antd"],
-    githubUrl: "https://github.com/cz764/frontend-personal-app",
-    liveUrl: "https://frontend-personal-app.vercel.app/",
-    type: "personal",
-    timeframe: "2023",
   },
 ];
