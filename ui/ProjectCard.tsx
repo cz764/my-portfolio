@@ -56,17 +56,17 @@ export default function ProjectCard({ project }: { project: Project }) {
             <p className="text-sm text-muted-foreground">{project.timeframe}</p>
           </div>
           {project.logoUrl && (
-            <img
+            <Image
               src={project.logoUrl}
               alt={`${project.title} logo`}
               className="h-12 w-12 rounded-lg object-contain"
+              width={48}
+              height={48}
             />
           )}
         </div>
 
-        <p className="leading-relaxed text-foreground">
-          {project.description}
-        </p>
+        <p className="leading-relaxed text-foreground">{project.description}</p>
 
         <ul className="space-y-1.5">
           {project.highlights.map((highlight, index) => (
